@@ -1,1 +1,109 @@
 /* Write your CSS here! */
+body {
+  /* display: flex; */
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #4d5d91;
+  margin: 0;
+}
+
+.top-banner {
+  width: 100%;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #172144;
+  background-image: url("./src/banner1_narrow.jpg"); /* Photo by Abby Anaday*/
+  background-size: 100%;
+  margin-top: 0px;
+  padding-top: 0%;
+}
+
+.banner-h1 {
+  font-size: 55px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  font-weight: 500;
+  color: white;
+}
+
+.banner-h2 {
+  font-size: 20px;
+  font-weight: 900;
+  color: #172144;
+  margin-top: 18px;
+  padding-top: 10px;
+  margin-bottom: 5px;
+}
+
+.hr1 {
+  color: #172144;
+  margin-top: 10px;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+#body-main {
+  width: 100%;
+}
+
+.background {
+  padding: 10px 10px 10px 10px;
+}
+article {
+  display: block;
+}
+
+.img {
+  float: left;
+  object-fit: cover;
+  padding: 10px 10px 10px 10px;
+}
+
+#handsome {
+  height: 200px;
+  width: 200px;
+}
+
+#saws {
+  height: 200px;
+  width: 200px;
+}
+
+#welding1 {
+  height: 200px;
+  width: 200px;
+}
+
+#p3,
+#p2,
+#p1 {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: rgb(190, 190, 190);
+}
+
+h2 {
+  font-size: 30px;
+}
+
+p {
+  color: lightcoral;
+  margin-bottom: 8px;
+  font-weight: 200;
+  font-size: 18px;
+}
+
+.furniture {
+  width: 100%;
+}
