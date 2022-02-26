@@ -1,433 +1,463 @@
 <!DOCTYPE html>
 
 <html>
-  <head>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
 
-  <body>
-    <div class="top-banner">
-      <h1 class="banner-h1">Making History</h1>
-      <h2 class="banner-h2">A collection of projects by: Will Morris</h2>
+<head>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="top-banner">
+    <h1 class="banner-h1">Making History</h1>
+    <h2 class="banner-h2">A collection of projects by: Will Morris</h2>
+  </div>
+  <hr class="hr1" />
+  <div class="background">
+    <h2>Feeding curiosity:</h2>
+    <h3>The early days</h3>
+    <article>
+      <div id="p1" class="left">
+        <div class="img">
+          <img src="./src/handsome.jpg" alt="none" id="handsome" class="bio" />
+        </div>
+
+        <p>
+          &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspFrom the time I was a
+          child I could always be described as a 'tinkerer'. My parents, at
+          times exasperated with my consistent dismantling of household items,
+          did as much as they could to feed my curiosity, buying me books on a
+          myriad of scientific subjects, lots of models and LEGOs, or signing
+          me up for workshops for children's crafts. I really owe them for
+          fanning my flames of creativity, rather than rebuking me when they
+          caught me taking apart their new fill-in-the-blank to "see how it
+          works".
+        </p>
+      </div>
+
+      <div id="p2" class="right">
+        <p>
+          &nbsp&nbsp&nbsp&nbsp&nbsp&nbspAs I grew into adolescence, I found
+          summer jobs building decks or fences and picked up some real world
+          skill, as well as a growing passion for using my hands to create. In
+          school I took on extra curricular activities in the theater crew
+          where we built extravagant sets for our school's plays. In my junior
+          yeas of high school I started attending a vocational highschool part
+          time in the electronics department, where I learned circuit design,
+          electric principals and basic robotics.
+        </p>
+        <div class="img">
+          <img src="./src/welding_1.jpg" alt="none" id="welding1" class="bio" />
+        </div>
+      </div>
+
+      <div id="p3" class="left">
+        <div class="img">
+          <img src="./src/americorps_photo.jpg" alt="none" id="saws" class="bio" />
+        </div>
+
+        <p>
+          &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspAfter graduating high
+          school I found myself volunteering with Americorps working for
+          several years with non-profit organizations like Habitat for
+          Humanity, and Project Homecoming in New Orleans where I continued to
+          develop skills in the construction trades, as well as some
+          electrical and plumbing. I used the education awards alloted though
+          the Americorps program to become certified in welding and returned
+          to work rebuilding homes with Project Homecoming in New Orleans.
+          While I was making a difference for people, I had always dreamt of
+          making furniture for a living, but while I had the skills and access
+          to tools it would take a rather drastic life event to give me the
+          push I needed to take the leap.
+        </p>
+      </div>
+    </article>
+  </div>
+  <div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <span class="next">&rsaquo;</span>
+    <span class="prev">&lsaquo;</span>
+    <img class="modal-content" id="img01" />
+    <div id="caption"></div>
+  </div>
+
+  <hr />
+  <div class="furniture">
+    <div class="banner" id="furniture">
+      <h2 id="title">Furniture:</h2>
+      <h3>Getting off the couch</h3>
     </div>
-    <hr class="hr1" />
-          <div class="background">
-        <h2>Feeding curiosity:</h2>
-        <h3>The early days</h3>
-        <article>
-          <div id="p1" class="left">
-            <div class="img">
-              <img
-                src="./src/handsome.jpg"
-                alt="none"
-                id="handsome"
-                class="bio"
-              />
-            </div>
 
-            <p>
-              &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspFrom the time I was a
-              child I could always be described as a 'tinkerer'. My parents, at
-              times exasperated with my consistent dismantling of household
-              items, did as much as they could to feed my curiosity, buying me
-              books on a myriad of scientific subjects, lots of models and
-              LEGOs, or signing me up for workshops for children's crafts. I
-              really owe them for fanning my flames of creativity, rather than
-              rebuking me when they caught me taking apart their new
-              fill-in-the-blank to "see how it works".
-            </p>
-          </div>
-
-          <div id="p2" class="right">
-            <p>
-              &nbsp&nbsp&nbsp&nbsp&nbsp&nbspAs I grew into adolescence, I found
-              summer jobs building decks or fences and picked up some real world
-              skill, as well as a growing passion for using my hands to create.
-              In school I took on extra curricular activities in the theater
-              crew where we built extravagant sets for our school's plays. In my
-              junior yeas of high school I started attending a vocational
-              highschool part time in the electronics department, where I
-              learned circuit design, electric principals and basic robotics.
-            </p>
-            <div class="img">
-              <img
-                src="./src/welding_1.jpg"
-                alt="none"
-                id="welding1"
-                class="bio"
-              />
-            </div>
-          </div>
-
-          <div id="p3" class="left">
-            <div class="img">
-              <img
-                src="./src/americorps_photo.jpg"
-                alt="none"
-                id="saws"
-                class="bio"
-              />
-            </div>
-
-            <p>
-              &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspAfter graduating high
-              school I found myself volunteering with Americorps working for
-              several years with non-profit organizations like Habitat for
-              Humanity, and Project Homecoming in New Orleans where I continued
-              to develop skills in the construction trades, as well as some
-              electrical and plumbing. I used the education awards alloted
-              though the Americorps program to become certified in welding and
-              returned to work rebuilding homes with Project Homecoming in New
-              Orleans. While I was making a difference for people, I had always
-              dreamt of making furniture for a living, but while I had the
-              skills and access to tools it would take a rather drastic life
-              event to give me the push I needed to take the leap.
-            </p>
-          </div>
-        </article>
-      </div>
-      <div id="myModal" class="modal">
-        <span class="close">&times;</span>
-        <span class="next">&rsaquo;</span>
-        <span class="prev">&lsaquo;</span>
-        <img class="modal-content" id="img01" />
-        <div id="caption"></div>
-      </div>
-      <hr />
-      <div class="furniture">
-        <div class="banner" id="furniture">
-          <h2 id="title">Furniture:</h2>
-          <h3>Getting off the couch</h3>
-        </div>
-        
-        <div class="body-p">
-          <p>
-            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspI had been dreaming of
-            making a living building furniture, but I had so many excuses and
-            artificial limitations I set for myself, and it may have gone on
-            like that forever, but fortunately in the winter of 2014 I tore my
-            achilles. It was in the long recovery time from my injury that I
-            finally got motivated to make serious change. I decided to rid my
-            life of distractions and spend at least 4 - 8 hours a day building
-            things. Below are a collection of some of my first pieces during
-            this period.
-          </p>
-        </div>
-      </div>
-      <hr />
-      <div class="photos" id="furniture-photos">
-        <div class="row">
-          <div class="column">
-            <img
-              src="./src/furniture/furniture_1.jpeg"
-              class="grid-img"
-              id="img1"
-              onclick="clickDisplay(this.id), currentSlide(1)"
-            />
-          </div>
-
-          <div class="column">
-            <img
-              src="./src/furniture/furniture_2.jpeg"
-              class="grid-img"
-              id="img2"
-              onclick="clickDisplay(this.id), currentSlide(2)"
-            />
-          </div>
-
-          <div class="column">
-            <img
-              src="./src/furniture/furniture_3.jpeg"
-              class="grid-img"
-              id="img3"
-              onclick="clickDisplay(this.id), currentSlide(3)"
-            />
-          </div>
-
-          <div class="column">
-            <img
-              src="./src/furniture/furniture_4.jpeg"
-              class="grid-img"
-              id="img4"
-              onclick="clickDisplay(this.id), currentSlide(4)"
-            />
-          </div>
-
-          <div class="column">
-            <img
-              src="./src/furniture/furniture_5.jpeg"
-              class="grid-img"
-              id="img5"
-              onclick="clickDisplay(this.id), currentSlide(5)"
-            />
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="column">
-            <img
-              src="./src/furniture/furniture_7.jpeg"
-              class="grid-img"
-              id="img7"
-              onclick="clickDisplay(this.id), currentSlide(7)"
-            />
-          </div>
-
-          <div class="column">
-            <img
-              src="./src/furniture/furniture_8.jpeg"
-              class="grid-img"
-              id="img8"
-              onclick="clickDisplay(this.id), currentSlide(8)"
-            />
-          </div>
-
-          <div class="column">
-            <img
-              src="./src/furniture/furniture_9.jpeg"
-              class="grid-img"
-              id="img9"
-              onclick="clickDisplay(this.id), currentSlide(9)"
-            />
-          </div>
-
-          <div class="column">
-            <img
-              src="./src/furniture/furniture_10.jpeg"
-              class="grid-img"
-              id="img10"
-              onclick="clickDisplay(this.id), currentSlide(10)"
-            />
-          </div>
-
-          <div class="column">
-            <img
-              src="./src/furniture/furniture_11.jpg"
-              class="grid-img"
-              id="img11"
-              onclick="clickDisplay(this.id), currentSlide(11)"
-            />
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="column">
-            <img
-              src="./src/furniture/furniture_12.jpg"
-              class="grid-img"
-              id="img12"
-              onclick="clickDisplay(this.id), currentSlide(12)"
-            />
-          </div>
-
-          <div class="column">
-            <img
-              src="./src/furniture/furniture_13.jpeg"
-              class="grid-img"
-              id="img13"
-              onclick="clickDisplay(this.id), currentSlide(13)"
-            />
-          </div>
-
-          <div class="column">
-            <img
-              src="./src/furniture/furniture_14.jpeg"
-              class="grid-img"
-              id="img14"
-              onclick="clickDisplay(this.id), currentSlide(14)"
-            />
-          </div>
-
-          <div class="column">
-            <img
-              src="./src/furniture/furniture_15.jpeg"
-              class="grid-img"
-              id="img15"
-              onclick="clickDisplay(this.id), currentSlide(15)"
-            />
-          </div>
-
-          <div class="column">
-            <img
-              src="./src/furniture/furniture_16.jpeg"
-              class="grid-img"
-              id="img16"
-              onclick="clickDisplay(this.id), currentSlide(16)"
-            />
-          </div>
-        </div>
-      </div>
+    <div class="body-p">
+      <p>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspI had been dreaming of
+        making a living building furniture, but I had so many excuses and
+        artificial limitations I set for myself, and it may have gone on like
+        that forever, but fortunately in the winter of 2014 I tore my
+        achilles. It was in the long recovery time from my injury that I
+        finally got motivated to make serious change. I decided to rid my life
+        of distractions and spend at least 4 - 8 hours a day building things.
+        Below are a collection of some of my first pieces during this period.
+      </p>
     </div>
 
     <hr />
-    <div class="plants">
-      <div class="banner" id="plants_banner">
-        <h2 id="title">Return to St. Louis:</h2>
-        <h3>putting down roots.</h3>
-      </div>
-
-      <p>After getting setting off into the world of making, I decided to return to St. Louis, my hometown, and found myself moving back in with my family. This was a rather unexpected turn of events on my part, and once again I found myself on the couch. However this time I had learned valuable lessons about the nature of my person, and it didn't take as much as a drastic injury to make me shed more of my self imposed limitations and decide to chase after something else I had been dreaming of; gardening. although we were living in a rental house I found a way to grow produce.. Hydroponics! here are a collection of pictures of my journey into the realm of indoor produce.</p>
-      <hr>
-      <div class="photos" id="plant-photos">
-        <div class="row">
-          <div class="column">
-            <img
-              src="./src/plants/plants_0.jpg"
-              class="grid-img"
-              id="img17"
-              onclick="clickDisplay(this.id), currentSlide(17)"
-            />
-          </div>
-
-          <div class="column">
-            <img
-              src="./src/plants/plants_4.jpg"
-              class="grid-img"
-              id="img18"
-              onclick="clickDisplay(this.id), currentSlide(18)"
-            />
-          </div>
-
-          <div class="column">
-            <img
-              src="./src/plants/plants_6.jpg"
-              class="grid-img"
-              id="img19"
-              onclick="clickDisplay(this.id), currentSlide(19)"
-            />
-          </div>
-
-          <div class="column">
-            <img
-              src="./src/plants/plants_8.jpg"
-              class="grid-img"
-              id="img20"
-              onclick="clickDisplay(this.id), currentSlide(20)"
-            />
-          </div>
-
-          <div class="column">
-            <img
-              src="./src/plants/plants_11.jpg"
-              class="grid-img"
-              id="img21"
-              onclick="clickDisplay(this.id), currentSlide(21)"
-            />
-          </div>
+    <div class="photos" id="furniture-photos">
+      <div class="row">
+        <div class="column">
+          <img src="./src/furniture/furniture_1.jpeg" class="grid-img" id="img1"
+            onclick="clickDisplay(this.id), currentSlide(1)" />
         </div>
 
-        <div class="row">
-          <div class="column">
-            <img
-              src="./src/plants/plants_1.JPG"
-              class="grid-img"
-              id="img22"
-              onclick="clickDisplay(this.id), currentSlide(22)"
-            />
-          </div>
-
-          <div class="column">
-            <img
-              src="./src/plants/plants_2.JPG"
-              class="grid-img"
-              id="img23"
-              onclick="clickDisplay(this.id), currentSlide(23)"
-            />
-          </div>
-
-          <div class="column">
-            <img
-              src="./src/plants/plants_5.jpg"
-              class="grid-img"
-              id="img24"
-              onclick="clickDisplay(this.id), currentSlide(24)"
-            />
-          </div>
-
-          <div class="column">
-            <img
-              src="./src/plants/plants_3.JPG"
-              class="grid-img"
-              id="img25"
-              onclick="clickDisplay(this.id), currentSlide(25)"
-            />
-          </div>
+        <div class="column">
+          <img src="./src/furniture/furniture_2.jpeg" class="grid-img" id="img2"
+            onclick="clickDisplay(this.id), currentSlide(2)" />
         </div>
 
-        <div class="row">
-          
-            <div class="column">
-              <img
-                src="./src/plants/plants_13.jpg"
-                class="grid-img"
-                id="img26"
-                onclick="clickDisplay(this.id), currentSlide(26)"
-              />
-            </div>
-            <div class="column">
-              <img
-                src="./src/plants/plants_14.jpg"
-                class="grid-img"
-                id="img27"
-                onclick="clickDisplay(this.id), currentSlide(27)"
-              />
-            </div>
-
-            <div class="column">
-              <img
-                src="./src/plants/plants_15.jpg"
-                class="grid-img"
-                id="img28"
-                onclick="clickDisplay(this.id), currentSlide(28)"
-              />
-            </div>
-
-            <div class="column">
-              <img
-                src="./src/plants/plants_12.jpg"
-                class="grid-img"
-                id="img29"
-                onclick="clickDisplay(this.id), currentSlide(29)"
-              />
-            </div>
-          </div>
-        
-      </div>
-
-      <hr />
-      <div class="house-shop">
-        <div class="banner">
-          <h2>A place of my own</h2>
+        <div class="column">
+          <img src="./src/furniture/furniture_3.jpeg" class="grid-img" id="img3"
+            onclick="clickDisplay(this.id), currentSlide(3)" />
         </div>
-        <p>about finding the ideal house</p>
-        <div class="photos"></div>
 
-        <div class="remodel">
-          <h3>Making it my own</h3>
-          <p>about the remodel</p>
-          <div class="photos"></div>
+        <div class="column">
+          <img src="./src/furniture/furniture_4.jpeg" class="grid-img" id="img4"
+            onclick="clickDisplay(this.id), currentSlide(4)" />
+        </div>
+
+        <div class="column">
+          <img src="./src/furniture/furniture_5.jpeg" class="grid-img" id="img5"
+            onclick="clickDisplay(this.id), currentSlide(5)" />
         </div>
       </div>
 
-      <hr />
-      <div class="furniture2">
-        <div class="banner">
-          <h2>A return to form</h2>
-        </div>
-        <p>A paragraph about making furniture again</p>
-        <div class="photos"></div>
-      </div>
-
-      <hr />
-      <div class="metalwork">
-        <div class="banner">
-          <h2>Metal-ing</h2>
+      <div class="row">
+        <div class="column">
+          <img src="./src/furniture/furniture_7.jpeg" class="grid-img" id="img7"
+            onclick="clickDisplay(this.id), currentSlide(7)" />
         </div>
 
-        <p>Welding, metal shaping</p>
-        <div class="photos"></div>
+        <div class="column">
+          <img src="./src/furniture/furniture_8.jpeg" class="grid-img" id="img8"
+            onclick="clickDisplay(this.id), currentSlide(8)" />
+        </div>
+
+        <div class="column">
+          <img src="./src/furniture/furniture_9.jpeg" class="grid-img" id="img9"
+            onclick="clickDisplay(this.id), currentSlide(9)" />
+        </div>
+
+        <div class="column">
+          <img src="./src/furniture/furniture_10.jpeg" class="grid-img" id="img10"
+            onclick="clickDisplay(this.id), currentSlide(10)" />
+        </div>
+
+        <div class="column">
+          <img src="./src/furniture/furniture_11.jpg" class="grid-img" id="img11"
+            onclick="clickDisplay(this.id), currentSlide(11)" />
+        </div>
       </div>
 
+      <div class="row">
+        <div class="column">
+          <img src="./src/furniture/furniture_12.jpg" class="grid-img" id="img12"
+            onclick="clickDisplay(this.id), currentSlide(12)" />
+        </div>
+
+        <div class="column">
+          <img src="./src/furniture/furniture_13.jpeg" class="grid-img" id="img13"
+            onclick="clickDisplay(this.id), currentSlide(13)" />
+        </div>
+
+        <div class="column">
+          <img src="./src/furniture/furniture_14.jpeg" class="grid-img" id="img14"
+            onclick="clickDisplay(this.id), currentSlide(14)" />
+        </div>
+
+        <div class="column">
+          <img src="./src/furniture/furniture_15.jpeg" class="grid-img" id="img15"
+            onclick="clickDisplay(this.id), currentSlide(15)" />
+        </div>
+
+        <div class="column">
+          <img src="./src/furniture/furniture_16.jpeg" class="grid-img" id="img16"
+            onclick="clickDisplay(this.id), currentSlide(16)" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr />
+  <div class="plants">
+    <div class="banner" id="plants_banner">
+      <h2 id="title">Return to St. Louis:</h2>
+      <h3>putting down roots.</h3>
+    </div>
+
+    <p>
+      After getting setting off into the world of making, I decided to return
+      to St. Louis, my hometown, and found myself moving back in with my
+      family. This was a rather unexpected turn of events on my part, and once
+      again I found myself on the couch. However this time I had learned
+      valuable lessons about the nature of my person, and it didn't take as
+      much as a drastic injury to make me shed more of my self imposed
+      limitations and decide to chase after something else I had been dreaming
+      of; gardening. although we were living in a rental house I found a way
+      to grow produce.. Hydroponics! here are a collection of pictures of my
+      journey into the realm of indoor produce.
+    </p>
+    <hr />
+    <div class="photos" id="plant-photos">
+      <div class="row">
+        <div class="column">
+          <img src="./src/plants/plants_0.jpg" class="grid-img" id="img17"
+            onclick="clickDisplay(this.id), currentSlide(17)" />
+        </div>
+
+        <div class="column">
+          <img src="./src/plants/plants_4.jpg" class="grid-img" id="img18"
+            onclick="clickDisplay(this.id), currentSlide(18)" />
+        </div>
+
+        <div class="column">
+          <img src="./src/plants/plants_6.jpg" class="grid-img" id="img19"
+            onclick="clickDisplay(this.id), currentSlide(19)" />
+        </div>
+
+        <div class="column">
+          <img src="./src/plants/plants_8.jpg" class="grid-img" id="img20"
+            onclick="clickDisplay(this.id), currentSlide(20)" />
+        </div>
+
+        <div class="column">
+          <img src="./src/plants/plants_11.jpg" class="grid-img" id="img21"
+            onclick="clickDisplay(this.id), currentSlide(21)" />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column">
+          <img src="./src/plants/plants_1.JPG" class="grid-img" id="img22"
+            onclick="clickDisplay(this.id), currentSlide(22)" />
+        </div>
+
+        <div class="column">
+          <img src="./src/plants/plants_2.JPG" class="grid-img" id="img23"
+            onclick="clickDisplay(this.id), currentSlide(23)" />
+        </div>
+
+        <div class="column">
+          <img src="./src/plants/plants_5.jpg" class="grid-img" id="img24"
+            onclick="clickDisplay(this.id), currentSlide(24)" />
+        </div>
+
+        <div class="column">
+          <img src="./src/plants/plants_3.JPG" class="grid-img" id="img25"
+            onclick="clickDisplay(this.id), currentSlide(25)" />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column">
+          <img src="./src/plants/plants_13.jpg" class="grid-img" id="img26"
+            onclick="clickDisplay(this.id), currentSlide(26)" />
+        </div>
+        <div class="column">
+          <img src="./src/plants/plants_14.jpg" class="grid-img" id="img27"
+            onclick="clickDisplay(this.id), currentSlide(27)" />
+        </div>
+
+        <div class="column">
+          <img src="./src/plants/plants_15.jpg" class="grid-img" id="img28"
+            onclick="clickDisplay(this.id), currentSlide(28)" />
+        </div>
+
+        <div class="column">
+          <img src="./src/plants/plants_12.jpg" class="grid-img" id="img29"
+            onclick="clickDisplay(this.id), currentSlide(29)" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr />
+  <div class="furniture2">
+    <div class="banner" id="furniture-2">
+      <h2 id="title">A return to form</h2>
+      <h3>...and function</h3>
+    </div>
+    <p>
+      After living at home for about a year I found a house to buy that fit
+      all of my needs as a maker, and was able to recreate my shop. At this
+      time I was able to start making furniture again, but this time I had the
+      resources to branch out and try materials techniques that were not
+      available to me before, here are a few furniture and woodworking pieces
+      from this time in my making career
+    </p>
+    <hr />
+
+    <div class="photos">
+      <div class="row">
+        <div class="column">
+          <img src="./src/furniture2/wood_3.jpg" class="grid-img" id="img30"
+            onclick="clickDisplay(this.id), currentSlide(30)" />
+        </div>
+
+        <div class="column">
+          <img src="./src/furniture2/furniture2_5.JPG" class="grid-img" id="img31"
+            onclick="clickDisplay(this.id), currentSlide(31)" />
+        </div>
+
+        <div class="column">
+          <img src="./src/furniture2/furnitrue2_7.JPG" class="grid-img" id="img32"
+            onclick="clickDisplay(this.id), currentSlide(32)" />
+        </div>
+
+        <div class="column">
+          <img src="./src/furniture2/furniture2_3.jpg" class="grid-img" id="img33"
+            onclick="clickDisplay(this.id), currentSlide(33)" />
+        </div>
+
+        <div class="column">
+          <img src="./src/furniture2/furniture2_7.jpg" class="grid-img" id="img34"
+            onclick="clickDisplay(this.id), currentSlide(34)" />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column">
+          <img src="./src/furniture2/bowls1.jpg" class="grid-img" id="img35"
+            onclick="clickDisplay(this.id), currentSlide(35)" />
+        </div>
+
+        <div class="column">
+          <img src="./src/furniture2/bowls2.jpg" class="grid-img" id="img36"
+            onclick="clickDisplay(this.id), currentSlide(36)" />
+        </div>
+
+        <div class="column">
+          <img src="./src/furniture2/bowls3.jpg" class="grid-img" id="img37"
+            onclick="clickDisplay(this.id), currentSlide(37)" />
+        </div>
+
+        <div class="column">
+          <img src="./src/furniture2/bowls4.jpg" class="grid-img" id="img38"
+            onclick="clickDisplay(this.id), currentSlide(38)" />
+        </div>
+
+        <div class="column">
+          <img src="./src/furniture2/bowls5.jpg" class="grid-img" id="img39"
+            onclick="clickDisplay(this.id), currentSlide(39)" />
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column">
+        <img src="./src/furniture2/bowls6.jpg" class="grid-img" id="img40"
+          onclick="clickDisplay(this.id), currentSlide(40)" />
+      </div>
+
+      <div class="column">
+        <img src="./src/furniture2/wood_2.jpg" class="grid-img" id="img41"
+          onclick="clickDisplay(this.id), currentSlide(41)" />
+      </div>
+
+      <div class="column">
+        <img src="./src/furniture2/furniture2_6.jpg" class="grid-img" id="img42"
+          onclick="clickDisplay(this.id), currentSlide(42)" />
+      </div>
+
+      <div class="column">
+        <img src="./src/furniture2/furniture2_8.jpg" class="grid-img" id="img43"
+          onclick="clickDisplay(this.id), currentSlide(43)" />
+      </div>
+
+      <div class="column">
+        <img src="./src/furniture2/wood4.jpg" class="grid-img" id="img44"
+          onclick="clickDisplay(this.id), currentSlide(44)" />
+      </div>
+    </div>
+  </div>
+  <hr />
+
+  <div class="metalwork">
+    <div class="banner" id="plants_banner">
+      <h2 id="title">Metal-ing</h2>
+      <h3>with metal</h3>
+    </div>
+    <p>As my Making progressed I added more shop space and tools to my collection including machining tools and more
+      metal shaping tools. here is the collection of some of my metal work including some commissioned  sculpture  pieces
+    as well as personal sculpture.</p>
+    <hr />
+
+    <div class="photos">
+      <div class="row">
+        <div class="column">
+          <img src="./src/metal/metal6.jpg" class="grid-img" id="img45"
+            onclick="clickDisplay(this.id), currentSlide(45)" />
+        </div>
+
+        <div class="column">
+          <img src="./src/metal/metal8.jpg" class="grid-img" id="img46"
+            onclick="clickDisplay(this.id), currentSlide(46)" />
+        </div>
+
+        <div class="column">
+          <img src="./src/metal/metal3.jpg" class="grid-img" id="img47"
+            onclick="clickDisplay(this.id), currentSlide(47)" />
+        </div>
+
+        <div class="column">
+          <img src="./src/metal/metal.jpg" class="grid-img" id="img48"
+            onclick="clickDisplay(this.id), currentSlide(48)" />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column">
+          <img src="./src/metal/metal14.jpg" class="grid-img" id="img49"
+            onclick="clickDisplay(this.id), currentSlide(49)" />
+        </div>
+
+        <div class="column">
+          <img src="./src/metal/metal13.jpeg" class="grid-img" id="img50"
+            onclick="clickDisplay(this.id), currentSlide(50)" />
+        </div>
+
+        <div class="column">
+          <img src="./src/metal/metal10.jpg" class="grid-img" id="img51"
+            onclick="clickDisplay(this.id), currentSlide(51)" />
+        </div>
+
+        <div class="column">
+          <img src="./src/metal/metal11.jpg" class="grid-img" id="img52"
+            onclick="clickDisplay(this.id), currentSlide(52)" />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column">
+          <img src="./src/metal/machining_1.jpg" class="grid-img" id="img53"
+            onclick="clickDisplay(this.id), currentSlide(53)" />
+        </div>
+
+        <div class="column">
+          <img src="./src/metal/machining.jpg" class="grid-img" id="img54"
+            onclick="clickDisplay(this.id), currentSlide(54)" />
+        </div>
+
+        <div class="column">
+          <img src="./src/metal/machining_6.jpg" class="grid-img" id="img55"
+            onclick="clickDisplay(this.id), currentSlide(55)" />
+        </div>
+
+        <div class="column">
+          <img src="./src/metal/metal5.jpg" class="grid-img" id="img56"
+            onclick="clickDisplay(this.id), currentSlide(56)" />
+        </div>
+      </div>
+    </div>
+
+    <!-- 
       <hr />
       <div class="machining">
         <div class="banner">
@@ -480,8 +510,8 @@
         <h3>misc.</h3>
         <p>misc creativity</p>
         <div class="photos"></div>
-      </div>
-    </div>
+      </div> -->
+
     <hr />
     <script>
       let modalImg = document.getElementById("img01");
@@ -520,13 +550,16 @@
       next.onclick = function () {
         modalImg.src = current.src;
         current = slidesArr[slidesArr.indexOf(current) + 1];
+        console.log(current);
       };
 
       prev.onclick = function () {
         modalImg.src = current.src;
         current = slidesArr[slidesArr.indexOf(current) - 1];
+        console.log(current);
       };
     </script>
-  </body>
-  <footer></footer>
+</body>
+<footer></footer>
+
 </html>
