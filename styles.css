@@ -3,7 +3,8 @@ body {
   /* justify-content: center; */
   /* align-items: center; */
   background-color: #4d5d91;
-  margin: 0;
+  margin: 8px;
+
 }
 
 .top-banner {
@@ -320,5 +321,17 @@ mainHeading{
 
 footer{
   width: 100%;
-  height: 60px;
+  height: 25px;
+  color: #bbb;
+}
+
+
+#testP{
+  color: green;
+  display: none;
+}
+
+#mainHeading{
+  color: red;
+  display: none;
 }
